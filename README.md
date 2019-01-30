@@ -2,6 +2,8 @@
 resource created by Zentry for run in FiveM plataform
 
 Como instalar:
+
+
 1 - Faça o download através do Fórum Oficial https://forum.fivem.net/t/release-demo-anti-cheat-for-fxservers-and-roleplay-zentry-academy/248496
 
 2 - Extraia dentro da pasta *resources* e dê o start no server.cfg
