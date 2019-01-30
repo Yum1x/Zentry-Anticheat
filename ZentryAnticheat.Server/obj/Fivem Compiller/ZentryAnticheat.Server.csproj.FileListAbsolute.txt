@@ -1,0 +1,3 @@
+C:\Users\lucas\RiderProjects\ZentryAnticheat_FiveM2\ZentryAnticheat-Build\ZentryAnticheat.Server.net.dll
+C:\Users\lucas\RiderProjects\ZentryAnticheat_FiveM2\ZentryAnticheat.Server\obj\Fivem Compiller\ZentryAnticheat.Server.csprojResolveAssemblyReference.cache
+C:\Users\lucas\RiderProjects\ZentryAnticheat_FiveM2\ZentryAnticheat.Server\obj\Fivem Compiller\ZentryAnticheat.Server.net.dll
