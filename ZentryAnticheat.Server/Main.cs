@@ -9,7 +9,7 @@ namespace ZentryAnticheat.Server
         private DateTime _lastAdvTime;
         
         private string adv =
-            "================================================================\n \n \n \n \n \n \n \n \n \n \n THIS RESOURCE WAS CREATED BY ZENTRY ACADEMY\n ESSE RECURSO FOI CRIADO PELA ZENTRY ACADEMY\n \n DONT BUY THIS FROM ANYONE, IF YOU BUYED ASK FOR REFUND RIGHT NOW\n \n NAO COMPRE ESTE RECURSO DE NINGUEM, CASO TENHA COMPRADO, PECA O REEMBOLSO\n JOIN US DISCORD:https://discord.gg/MZkcKAU\n ENTRE EM NOSSO DISCORD: https://discord.gg/MZkcKAU \n \n \n \n \n \n \n \n \n \n Version: 0.9.4 Pre-Release | Beta Acess\n================================================================";
+            "================================================================\n \n \n THIS RESOURCE WAS CREATED BY ZENTRY ACADEMY\n ESSE RECURSO FOI CRIADO PELA ZENTRY ACADEMY\n \n DONT BUY THIS FROM ANYONE, IF YOU BUYED ASK FOR REFUND RIGHT NOW\n \n NAO COMPRE ESTE RECURSO DE NINGUEM, CASO TENHA COMPRADO, PECA O REEMBOLSO\n \n Version: 0.9.5 Pre-Release | Beta\n================================================================";
         public Main()
         {
             Debug.WriteLine(adv);
@@ -21,7 +21,7 @@ namespace ZentryAnticheat.Server
         {
             BaseScript.TriggerClientEvent("scanEntitys");
             await BaseScript.Delay(500);
-            if (_lastAdvTime.Ticks + 1200000000 <= DateTime.UtcNow.Ticks)
+            if (_lastAdvTime.Ticks + 6000000000 <= DateTime.UtcNow.Ticks)
             {
                 Debug.WriteLine(adv);
                 _lastAdvTime = DateTime.UtcNow;

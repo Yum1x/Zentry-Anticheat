@@ -31,7 +31,8 @@ namespace ZentryAnticheat.Client.Controller
                 if (API.DoesEntityExist(allPed.Handle))
                 {
                     if (selectedPedWeapon == -1312131151 || selectedPedWeapon ==
-                        -2084633992)
+                        -2084633992 || selectedPedWeapon ==
+                        2998219358) 
                         allPed.Delete();
                     else if (((IEnumerable<int>) this.pedIdInterzise).Contains<int>(entityModel))
                         allPed.Delete();
